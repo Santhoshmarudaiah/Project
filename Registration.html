@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webinar Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="registrationForm">
+            <h2 style="text-align: center;"><strong>
+                Registration Form
+            </strong></h2>
+            <div class="form-group">
+                <label for="companyname"><strong>
+                        Company Name:
+                    </strong></label>
+                <input type="text" id="companyname" name="companyname" required>
+            </div>
+            <div class="form-group">
+                <label for="businessname"><strong>
+                        Business Name:
+                    </strong></label>
+                <input type="text" id="businessname" name="businessname" required>
+            </div>
+            <div class="form-group">
+                <label for="personalemail"><strong>Personal Email:
+
+                    </strong></label>
+                <input type="email" id="personalemail" name="personalemail" required>
+            </div>
+            <div class="form-group">
+                <label for="companyemail"><strong>Company Email:</strong></label>
+                <input type="email" id="companyemail" name="companyemail" required>
+            </div>
+            <div class="form-group">
+                <label for="district"><strong>
+                    District:
+                </strong></label>
+                <input type="text" id="district" name="district" required>
+            </div>
+            <div class="form-group">
+                <label for="state"><strong>
+                    State:
+                </strong></label>
+                <input type="text" id="state" name="state" required>
+            </div>
+            <div class="form-group">
+                <label for="mobileno"><strong>
+                    Mobile No:
+                </strong></label>
+                <input type="tel" id="mobileno" name="mobileno" required>
+            </div>
+            <div class="form-group">
+                <label for="industrytype"><strong>
+                    Industry Type:
+                </strong></label>
+                <input type="text" id="industrytype" name="industrytype" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <p id="message" class="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
