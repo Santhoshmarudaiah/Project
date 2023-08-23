@@ -1,0 +1,210 @@
+body {
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+#landing {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.img-fluid {
+    padding: 10px 0px 0px 0px;
+}
+
+.title {
+    padding: 100px 0px 0px 30px;
+    font-size: 30px;
+    text-align: left;
+
+
+}
+
+.title1 {
+    padding: 20px 0px 0px 35px;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.btn-join {
+    padding: 30px 0px 0px 50px;
+    display: flex;
+
+}
+
+/* hero end */
+
+
+.digi-img {
+    width: 90%;
+    padding-top: 70px;
+
+}
+
+@media (max-width: 992px) {
+    .digi-img {
+        padding: 60px 0;
+    }
+}
+
+.service-title{
+    padding-top: 60px;
+}
+
+.digi{
+    width: 80%;
+    padding: 60px 0px 0px 0px;
+}
+.digi-img1 {
+    width: 80%;
+    padding: 90px 0px 0px 0px;
+
+}
+
+
+
+.digital {
+    padding: 100px 0px 0px 0px;
+}
+
+.digi-content {
+    font-size: 20px;
+    padding: 10px 0px 0px 0px;
+    text-align: left;
+    font-family: "digi";
+
+}
+
+@font-face {
+    font-family: "digi";
+    src: url(Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+@media (max-width: 992px) {
+    .digi-content {
+        padding: 40px 0;
+    }
+
+    .digital {
+        padding: 30px 0;
+    }
+
+}
+
+
+
+
+/* service */
+.service-title {
+    padding-top: 80px;
+}
+
+.digi-topic {
+    padding-top: 5px;
+}
+
+.event {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+/* contact... */
+.contact-background {
+    background-color: #DC4298;
+    width: 100%;
+    height: 350px;
+
+    margin: 80px 0px 0px 0px;
+}
+
+.contact-content {
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 100px;
+}
+
+
+.btn-contact {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.girl-img {
+    height: 350px;
+}
+
+@media screen and (max-width: 400px) {
+    .girl-img {
+        width: 100%;
+        padding-top: 30px;
+    }
+}
+
+
+
+.foot {
+    padding-top: 50px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* copyright */
+
+.powered {
+    background-color: black;
+    height: 40px;
+}
+
+@media (min-width: 992px) {
+    .powered {
+        text-align: center;
+
+
+    }
+
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+@media (max-width: 992px) {
+    .copyright {
+        width: 100%;
+
+    }
+
+}
+
+.f1 {
+    padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 992px) {
+    .f1 {
+        padding-top: 300px;
+
+    }
+
+}
